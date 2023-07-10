@@ -110,3 +110,27 @@
 .first-text{
     margin-top: 20px;
 }
+/* featured Section end */
+
+/* service section */
+.service{
+    width: 75%;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    margin-bottom: 100px;
+}
+.delivery{
+    text-align: center;
+    padding-left: 120px;
+}
+.flower{
+    text-align: center;
+}
+.support{
+    text-align: center;
+    padding-right: 120px;
+}
+/* service section end */
