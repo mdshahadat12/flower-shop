@@ -160,3 +160,21 @@ font-family: 'Open Sans', sans-serif;
     margin-bottom: 25px;
 }
 /* sale section end */
+
+/* instragram section */
+.instragram{
+    text-align: center;
+    margin: 130px 0px 0px 0px;
+}
+.insta-dis{
+    padding: 30px;
+    width: 600px;
+    margin: auto;
+}
+.insta-pic{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* instragram section end */
