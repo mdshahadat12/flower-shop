@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
 
 /* Header Section Start */
 
@@ -18,11 +22,11 @@
 }
 
 .header-left {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .header-text {
-    font-size: 70px;
+    font-size: 55px;
 }
 
 .header-discription {
@@ -134,3 +138,25 @@
     padding-right: 120px;
 }
 /* service section end */
+
+/* sale section */
+.sale{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.sale-left{
+    text-align: center;
+    padding: 30px;
+}
+.sale-right{
+    padding: 70px;
+}
+.sale-btn{
+    margin-top: 25px;
+}
+.sale-head{
+    margin-bottom: 25px;
+}
+/* sale section end */
