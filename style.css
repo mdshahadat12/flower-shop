@@ -2,15 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/* Header Section Start */
+                    /* Header Section Start */
 
 .header {
-    height: 90vh;
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -41,83 +41,97 @@ font-family: 'Open Sans', sans-serif;
 .btn {
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 24px;
+    padding: 16px 24px;
     color: white;
     font-size: 20px;
     font-weight: 700;
     border: none;
 }
 
-.header-right{
-    margin-top: 55px;
+.header-right {
+    margin-top: 60px;
 }
-/* Heading End */
 
-/* featured Section */
+.header-pic {
+    margin-bottom: -5px;
+}
 
-.featured-section{
-    
+                    /* Heading End */
+
+                    /* featured Section */
+
+.featured-section {
+
     width: 75%;
     height: 100vh;
     margin: auto;
 
 }
-.featured-head{
+
+.featured-head {
     text-align: center;
     margin-top: 90px;
     margin-bottom: 24px;
 }
-.featured-discription{
+
+.featured-discription {
     width: 500px;
     margin: auto;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.first-img{
+.first-img {
     width: 360px;
     height: 460px;
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 230px 230px 0px 0px;
     text-align: center;
 }
-.second-img{
+
+.second-img {
     width: 360px;
     height: 460px;
-    background-color: rgba(5, 151, 160, 0.15);    
-    border-radius: 230px 230px 0px 0px;
-    text-align: center;
-}
-.third-img{
-    width: 360px;
-    height: 460px;
-    background-color: rgba(71, 125, 17, 0.15);    
+    background-color: rgba(5, 151, 160, 0.15);
     border-radius: 230px 230px 0px 0px;
     text-align: center;
 }
 
-.featured-img{
+.third-img {
+    width: 360px;
+    height: 460px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 230px 230px 0px 0px;
+    text-align: center;
+}
+
+.featured-img {
     display: flex;
     justify-content: space-between;
 }
-.first-image{
+
+.first-image {
     padding-top: 100px;
     width: 260px;
 }
-.third-image{
+
+.third-image {
     padding-top: 70px;
     width: 260px;
 }
-.midle-text{
+
+.midle-text {
     margin-top: 120px;
 }
-.first-text{
+
+.first-text {
     margin-top: 20px;
 }
-/* featured Section end */
 
-/* service section */
-.service{
+                    /* featured Section end */
+
+                    /* service section */
+.service {
     width: 75%;
     background-color: rgba(39, 39, 39, 0.05);
     margin: auto;
@@ -126,55 +140,99 @@ font-family: 'Open Sans', sans-serif;
     padding: 50px 0px;
     margin-bottom: 100px;
 }
-.delivery{
+
+.delivery {
     text-align: center;
     padding-left: 120px;
 }
-.flower{
+
+.flower {
     text-align: center;
 }
-.support{
+
+.support {
     text-align: center;
     padding-right: 120px;
 }
-/* service section end */
 
-/* sale section */
-.sale{
+                    /* service section end */
+
+                    /* sale section */
+.sale {
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
-.sale-left{
+
+.sale-left {
     text-align: center;
     padding: 30px;
 }
-.sale-right{
+
+.sale-right {
     padding: 70px;
 }
-.sale-btn{
+
+.sale-btn {
     margin-top: 25px;
 }
-.sale-head{
+
+.sale-head {
     margin-bottom: 25px;
 }
-/* sale section end */
 
-/* instragram section */
-.instragram{
+                    /* sale section end */
+
+                    /* instragram section */
+.instragram {
     text-align: center;
     margin: 130px 0px 0px 0px;
 }
-.insta-dis{
+
+.insta-dis {
     padding: 30px;
     width: 600px;
     margin: auto;
 }
-.insta-pic{
+
+.insta-pic {
     width: 75%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-/* instragram section end */
+
+                     /* instragram section end */
+
+                      /* deals section */
+.deal-section{
+    width: 75%;
+    margin: auto;
+    background-image: url(./asset/Rectangle\ 9.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.deals {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 100px 0px;
+}
+
+.deals-pra {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 25px;
+}
+.deals-input{
+    padding: 18px 30px;
+    margin: 0px 30px 5px 0px;
+    border-radius: 5px;
+    border: 0px;
+    width: 500px;
+}
+                      /* deals section complete */
+                      
+                      /* footer section */
