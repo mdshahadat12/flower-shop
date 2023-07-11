@@ -29,7 +29,8 @@ body {
     background: rgba(229, 84, 115, 0.20);
     display: flex;
     justify-content: space-between;
-    padding: 30px 210px;
+    padding: 20px 210px;
+    align-items: center;
 }
 
 .nav-menu{
