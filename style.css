@@ -1,3 +1,4 @@
+/* common */
 * {
     margin: 0px;
     padding: 0px;
@@ -7,10 +8,37 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.pragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 16px 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
 
 /* Header Section Start */
 
-.header {
+.nav{
+    background: rgba(229, 84, 115, 0.20);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 210px;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: bold;
+}
+.banner{
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -30,22 +58,10 @@ body {
 }
 
 .header-discription {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     width: 650px;
     margin: 30px 0px;
-}
-
-.btn {
-    border-radius: 8px;
-    background: #E55473;
-    padding: 16px 24px;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    border: none;
 }
 
 .header-right {
@@ -63,7 +79,6 @@ body {
 .featured-section {
 
     width: 75%;
-    height: 100vh;
     margin: auto;
 
 }
@@ -130,6 +145,27 @@ body {
 
 /* featured Section end */
 
+/* garden section */
+.garden{
+    width: 75%;
+    margin: auto;
+}
+
+.left-garden{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 30px 0px;
+}
+.garden-head{
+    text-align: center;
+    margin: 150px 0px 50px 0px;
+}
+.photo{
+    border: solid 10px rgb(200, 200, 200);
+}
+/* garden section end */
+
 /* service section */
 .service {
     width: 75%;
@@ -139,6 +175,7 @@ body {
     justify-content: space-between;
     padding: 50px 0px;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .delivery {
@@ -146,7 +183,7 @@ body {
     padding-left: 120px;
 }
 
-.flower {
+.flowers {
     text-align: center;
 }
 
