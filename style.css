@@ -8,7 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-                    /* Header Section Start */
+/* Header Section Start */
 
 .header {
     background: rgba(229, 84, 115, 0.10);
@@ -56,9 +56,9 @@ body {
     margin-bottom: -5px;
 }
 
-                    /* Heading End */
+/* Heading End */
 
-                    /* featured Section */
+/* featured Section */
 
 .featured-section {
 
@@ -128,9 +128,9 @@ body {
     margin-top: 20px;
 }
 
-                    /* featured Section end */
+/* featured Section end */
 
-                    /* service section */
+/* service section */
 .service {
     width: 75%;
     background-color: rgba(39, 39, 39, 0.05);
@@ -155,9 +155,9 @@ body {
     padding-right: 120px;
 }
 
-                    /* service section end */
+/* service section end */
 
-                    /* sale section */
+/* sale section */
 .sale {
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -182,9 +182,9 @@ body {
     margin-bottom: 25px;
 }
 
-                    /* sale section end */
+/* sale section end */
 
-                    /* instragram section */
+/* instragram section */
 .instragram {
     text-align: center;
     margin: 130px 0px 0px 0px;
@@ -203,16 +203,17 @@ body {
     justify-content: space-between;
 }
 
-                     /* instragram section end */
+/* instragram section end */
 
-                      /* deals section */
-.deal-section{
+/* deals section */
+.deal-section {
     width: 75%;
     margin: auto;
     background-image: url(./asset/Rectangle\ 9.png);
-    background-size:100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
+
 .deals {
     text-align: center;
     margin-top: 100px;
@@ -226,13 +227,43 @@ body {
     font-weight: 400;
     padding: 25px;
 }
-.deals-input{
+
+.deals-input {
     padding: 18px 30px;
     margin: 0px 30px 5px 0px;
     border-radius: 5px;
     border: 0px;
     width: 500px;
 }
-                      /* deals section complete */
-                      
-                      /* footer section */
+
+/* deals section complete */
+
+/* footer section */
+.footer-section {
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 100px 0px 90px 0px;
+}
+
+.flower {
+    color: #E55473;
+}
+
+.footer-pra {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 550px;
+    margin: auto;
+    padding: 30px 0px 30px 0px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
+}
+                /* the end */
